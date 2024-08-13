@@ -58,7 +58,7 @@ let products = [
     },
     {
         id: 8,
-        name: 'houseleek + Pot',
+        name: 'Houseleek + Pot',
         price: '₹120.00',
         url: 'assets/close-up-woman-holding-small-flowerpot.jpg',
         alt: 'close-up-woman-holding-small-flowerpot',
@@ -161,4 +161,4 @@ let products = [
         desc: "Bamboo Palm is a subtropical palm, upright, spreading, and multi-stemmed growing up to 7' in indoor environments. It is one of the most sought-after indoor palms because it thrives in interior conditions that other plants cannot tolerate.  The leaves spread out attractively and have a drooping form. When grown outdoors in a temperate zone, it can reach 6-7 feet tall and 2-3 feet wide; as a houseplant, it grows only between 2-7 feet tall.",
     },
 ]
-export {products}
+export { products }

@@ -33,18 +33,18 @@ const Products = () => {
     }, [products]);
     return (
         <>  
-            <div className="product-section">
-                <div className="product-content">
+            <div className="hm-product-section">
+                <div className="hm-product-content">
                     <h1>Our Products</h1>
-                    <div className="product-list">
+                    <div className="hm-product-list">
                         <div className="left-products">
                             {product.map((img, key)=>{
                                 return (
                                     <div className="products" key={key} onClick={()=>{setitem(key)}}>
-                                        <div className="product-img-box">
-                                            <img className='product-img' src={img.url} alt={img.alt} key={key}/>
+                                        <div className="hm-product-img-box">
+                                            <img className='hm-product-img' src={img.url} alt={img.alt} key={key}/>
                                         </div>
-                                        <div className="product-details">
+                                        <div className="hm-product-details">
                                             <h6>{img.name}</h6>
                                             <span className='price'>{img.price}</span>
                                         </div>
@@ -69,6 +69,9 @@ const Products = () => {
                             })}
                         </div>
                     </div>
+                    <NavLink className='see-product-btn'>
+                        <button>See All Products</button>
+                    </NavLink>
                 </div>
             </div>
         </>
