@@ -31,7 +31,6 @@ const Products = () => {
         const randomSubset = shuffledProducts.slice(0, 4); // Adjust slice parameters as needed
         setProduct(randomSubset);
     }, [products]);
-
     return (
         <>  
             <div className="product-section">
@@ -41,7 +40,7 @@ const Products = () => {
                         <div className="left-products">
                             {product.map((img, key)=>{
                                 return (
-                                    <div className="products" onClick={()=>{setitem(key)}}>
+                                    <div className="products" key={key} onClick={()=>{setitem(key)}}>
                                         <div className="product-img-box">
                                             <img className='product-img' src={img.url} alt={img.alt} key={key}/>
                                         </div>
@@ -56,14 +55,14 @@ const Products = () => {
                         <div className="right-product">
                             {product.slice(0,1).map((img, key)=>{
                                 return(
-                                    <NavLink key={key} className={item === key ? 'highlighted-product' : 'hp-display-none'}>
+                                    <NavLink key={key} className='highlighted-product'>
                                         <div className="hp-img-box">
-                                            <img className='hp-img' key={key} src={img.url} alt={img.alt} />
+                                            <img className='hp-img' key={key} src={product[item].url} alt={product[item].alt} />
                                         </div>
                                         <div className="hp-details">
-                                            <h5>{img.name}</h5>
-                                            <span className='price'>{img.price}</span>
-                                            <p className='hp-detail-p'>{img.desc.substring(0, 120)}...</p>
+                                            <h5>{product[item].name}</h5>
+                                            <span className='price'>{product[item].price}</span>
+                                            <p className='hp-detail-p'>{product[item].desc.substring(0, 120)}...</p>
                                         </div>
                                     </NavLink>
                                 )
