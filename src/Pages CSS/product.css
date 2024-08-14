@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-pg{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Syne", sans-serif;
+}
+.product-pg-content{
+    display: flex;
+    /* border: solid; */
+}
+.product-nav{
+    background: linear-gradient(rgba(14, 12, 12, 0.4), rgb(14, 12, 12, 0.4)), #556e53;
+    /* background: linear-gradient(rgba(14, 12, 12, 0.4), rgb(14, 12, 12, 0.4)), url('/public/assets/close-up-woman-with-flowers-basket.jpg'); */
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 18px;
+}
+.product-nav .nav-link{
+    color: #fff;
+}
+.product-nav .nav-link:hover::after{
+    background-color: #fff;
+}
+.product-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 20px 0; */
+}
+.product-panel{
+    width: 140px;
+    height: 607px;
+    background-color: #829771;
+    overflow-y: scroll;
+}
+.product-overflow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 10px;
+}
+.product-panel::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  /* Track */
+.product-panel::-webkit-scrollbar-track {
+    background: transparent; 
+}
+   
+  /* Handle */
+.product-panel::-webkit-scrollbar-thumb {
+    background: #65725a; 
+    border-radius: 10px;
+}
+.product-card{
+    width: 80%;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgb(77, 77, 77) 0px 0px 16px;
+    transition: .3s ease;
+}
+.product-card:hover{
+    transform: scale(1.1);
+}
+.product-card img{
+    width: 100%;
+}
+.product-detail-container{
+    padding: 20px;
+}
+.product-detail-content{
+    display: flex;
+}

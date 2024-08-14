@@ -30,6 +30,9 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+.App-header{
+    margin-bottom: 40px;
+}
 .banner{
     width: 100%;
 }

@@ -1,27 +1,25 @@
 import React from 'react'
-import { Navbar, NavLink } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 import "../Component CSS/navbar.css"
 
 const NavBar = () => {
     
   return (
-    <div>
-        <Navbar sticky="top">
+    <>
+        <nav className='navbar'>
             <div className="navbar-content">
-                <div className="logo">
-                    <a href="#">
-                        <img src="assets/tree-logo.png" alt="" />
-                    </a>
-                </div>
+                <NavLink to='/' className="logo">
+                    <img src="assets/tree-logo.png" alt="" />
+                </NavLink>
                 <ul className="nav-links">
-                    <li><NavLink href="#" className='nav-link'>Home</NavLink></li>
-                    <li><NavLink href="#" className='nav-link'>About Us</NavLink></li>
-                    <li><NavLink href="#" className='nav-link'>Products</NavLink></li>
-                    <li><NavLink href="#" className='nav-link'>Contact Us</NavLink></li>
+                    <li><NavLink className='nav-link'>Home</NavLink></li>
+                    <li><NavLink className='nav-link'>About Us</NavLink></li>
+                    <li><NavLink to="/Product" className='nav-link'>Products</NavLink></li>
+                    <li><NavLink className='nav-link'>Contact Us</NavLink></li>
                 </ul>
             </div>
-        </Navbar>
-    </div>
+        </nav>
+    </>
   )
 }
 

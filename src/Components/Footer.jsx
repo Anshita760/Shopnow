@@ -9,16 +9,16 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-left">
             <NavLink className='social-media-icon'>
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </NavLink>
             <NavLink className='social-media-icon'>
-              <i class="fa-brands fa-facebook"></i>
+              <i className="fa-brands fa-facebook"></i>
             </NavLink>
             <NavLink className='social-media-icon'>
-              <i class="fa-brands fa-twitter"></i>
+              <i className="fa-brands fa-twitter"></i>
             </NavLink>
             <NavLink className='social-media-icon'>
-              <i class="fa-brands fa-pinterest"></i>
+              <i className="fa-brands fa-pinterest"></i>
             </NavLink>
           </div>
           <div className="footer-right">

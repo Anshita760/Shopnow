@@ -6,7 +6,7 @@
 .navbar{
     display: flex;
     justify-content: center;
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
     /* border: solid; */
 }
 .navbar-content{
@@ -20,6 +20,12 @@
     width: 70px;
     margin: 0 40px;
 }
+.logo.nav-link{
+    padding-bottom: 0;
+}
+.logo.nav-link::after{
+    display: none;
+}
 .logo img {
     width: 100%;
 }
@@ -31,11 +37,11 @@
     flex-wrap: wrap;
     gap: 40px;
     list-style: none;
-    padding: 20px;
+    margin: 0;
     /* border: solid; */
 }
 .nav-link{
-    padding-bottom: 10px;
+    padding-bottom: 4px;
     text-decoration: none;
     font-weight: 600;
     color: #254336;
