@@ -2,6 +2,7 @@ import React from 'react'
 import "../Pages CSS/contactUs.css"
 import ContactForm from '../Components/ContactForm'
 import NavBar from '../Components/NavBar'
+import Footer from '../Components/Footer'
 
 const ContactUs = () => {
     return (
@@ -19,6 +20,9 @@ const ContactUs = () => {
                             <img src="assets/hero-img.jpg" alt="" />
                         </div>
                     </div>
+                </div>
+                <div className="footer">
+                    <Footer />
                 </div>
             </div>
         </>

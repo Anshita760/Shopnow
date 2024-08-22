@@ -1,6 +1,6 @@
 import '../Component CSS/footer.css'
 import React from 'react'
-import { NavLink } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -8,27 +8,27 @@ const Footer = () => {
       <div className="footer-section">
         <div className="footer-content">
           <div className="footer-left">
-            <NavLink className='social-media-icon'>
+            <a href='#' className='social-media-icon'>
               <i className="fa-brands fa-instagram"></i>
-            </NavLink>
-            <NavLink className='social-media-icon'>
+            </a>
+            <a href='#' className='social-media-icon'>
               <i className="fa-brands fa-facebook"></i>
-            </NavLink>
-            <NavLink className='social-media-icon'>
+            </a>
+            <a href='#' className='social-media-icon'>
               <i className="fa-brands fa-twitter"></i>
-            </NavLink>
-            <NavLink className='social-media-icon'>
+            </a>
+            <a href='#' className='social-media-icon'>
               <i className="fa-brands fa-pinterest"></i>
-            </NavLink>
+            </a>
           </div>
           <div className="footer-right">
             <NavLink className='footer-page-link'>
               <span>ABOUT</span>
             </NavLink>
-            <NavLink className='footer-page-link'>
+            <NavLink to='/ContactUs' className='footer-page-link'>
               <span>CONTACT US</span>
             </NavLink>
-            <NavLink className='footer-page-link'>
+            <NavLink to='/Product' className='footer-page-link'>
               <span>ALL PRODUCTS</span>
             </NavLink>
           </div>

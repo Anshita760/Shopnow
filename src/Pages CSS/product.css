@@ -64,7 +64,7 @@
 .product-container{
     display: flex;
     flex-direction: column;
-    margin-left: 140px;
+    margin-left: 116px;
     /* padding: 20px 20px 0; */
 }
 .product-panel{
@@ -80,7 +80,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 20px 10px;
+    padding: 24px 10px;
 }
 .product-panel::-webkit-scrollbar {
     width: 5px;
@@ -93,6 +93,7 @@
    
   /* Handle */
 .product-panel::-webkit-scrollbar-thumb {
+
     background: #65725a; 
     border-radius: 10px;
 }
