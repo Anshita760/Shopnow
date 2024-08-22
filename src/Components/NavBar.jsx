@@ -12,10 +12,10 @@ const NavBar = () => {
                     <img src="assets/tree-logo.png" alt="" />
                 </NavLink>
                 <ul className="nav-links">
-                    <li><NavLink className='nav-link'>Home</NavLink></li>
+                    <li><NavLink to="/Home" className='nav-link'>Home</NavLink></li>
                     <li><NavLink className='nav-link'>About Us</NavLink></li>
                     <li><NavLink to="/Product" className='nav-link'>Products</NavLink></li>
-                    <li><NavLink className='nav-link'>Contact Us</NavLink></li>
+                    <li><NavLink to="/ContactUs" className='nav-link'>Contact Us</NavLink></li>
                 </ul>
             </div>
         </nav>

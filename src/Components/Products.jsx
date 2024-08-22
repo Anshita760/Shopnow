@@ -69,7 +69,7 @@ const Products = () => {
                             })}
                         </div>
                     </div>
-                    <NavLink className='see-product-btn'>
+                    <NavLink to='/Product' className='see-product-btn'>
                         <button>See All Products</button>
                     </NavLink>
                 </div>

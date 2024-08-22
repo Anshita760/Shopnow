@@ -2,6 +2,7 @@ import '../Pages CSS/product.css'
 import React, { useState, useEffect } from 'react'
 import NavBar from '../Components/NavBar'
 import { products } from '../Products'
+import { NavLink } from 'react-router-dom'
 
 const Product = () => {
     const [productPanel, setProductPanel] = useState([])
@@ -50,12 +51,12 @@ const Product = () => {
                                 <div className="nav-comp">
                                     <NavBar />
                                 </div>
-                                <div className="shopping-cart">
-                                    <span class="material-symbols-outlined cart">shopping_cart</span>
+                                <NavLink className="shopping-cart">
+                                    <span className="material-symbols-outlined cart">shopping_cart</span>
                                     <div className="cart-count">
-                                        <span>10</span>
+                                        <span>0</span>
                                     </div>
-                                </div>
+                                </NavLink>
                             </div>
                             <div className="product-detail-container">
                                 <div className="product-detail-content">
@@ -75,6 +76,7 @@ const Product = () => {
                                                     <h2>{productPanel[productDetails].name}</h2>
                                                     <h1>{productPanel[productDetails].price}</h1>
                                                     <div className="divider"></div>
+                                                    <h6>Plant Description</h6>
                                                     <p>{productPanel[productDetails].desc}</p>
                                                 </div>
                                             )
@@ -83,7 +85,7 @@ const Product = () => {
                                             <button className="buy-btn">Buy Now</button>
                                             <button className='cart-btn'>
                                                 Go To Cart
-                                                <span class="material-symbols-outlined cart-btn-chevron">chevron_right</span>
+                                                <span className="material-symbols-outlined cart-btn-chevron">chevron_right</span>
                                             </button>
                                         </div>
                                     </div>
