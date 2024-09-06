@@ -29,6 +29,21 @@ h3{
 a{
   text-decoration: none !important;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+  background: #65725a; 
+  /* border-radius: 10px; */
+}
 
 /* .App {
   text-align: center;

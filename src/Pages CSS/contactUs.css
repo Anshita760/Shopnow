@@ -39,8 +39,9 @@
 }
 .contact-form-side-img{
     width: 48%;
+    height: 467px;
     overflow: hidden;
-}
-.contact-form-side-img img{
-    width: 800px;
+    background-image: url('/public/assets/hero-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }

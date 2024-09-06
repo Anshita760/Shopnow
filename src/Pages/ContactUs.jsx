@@ -16,9 +16,7 @@ const ContactUs = () => {
                         <div className="form-comp">
                             <ContactForm />
                         </div>
-                        <div className="contact-form-side-img">
-                            <img src="assets/hero-img.jpg" alt="" />
-                        </div>
+                        <div className="contact-form-side-img"></div>
                     </div>
                 </div>
                 <div className="footer">

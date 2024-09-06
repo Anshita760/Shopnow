@@ -68,8 +68,8 @@ let products = [
         id: 9,
         name: 'Foxtail Agave',
         price: '₹887.00',
-        url: 'assets/decorative-plant-inside-minimal-vase.jpg',
-        alt: 'decorative-plant-inside-minimal-vase',
+        url: 'assets/Foxtail Agave.jpg',
+        alt: 'Foxtail Agave',
         desc: "The Fox Tail Agave is a gentle species with a graceful appearance that is popular for its easy nature and smooth, pliable, pale green leaves free from menacing teeth or claws. The smooth, light grey, bare stem is distinctive and varies in length from 1.5 to 5 ft. from the base. This low-maintenance agave is easy to grow and drought-tolerant, making it an ideal choice for frost-free gardens of all sizes. With its large, soft rosettes resembling green flowers, the Fox Tail Agave adds beauty and lushness to the landscape. Order your Fox Tail Agave today for delivery to your home.",
     },
     {
@@ -108,8 +108,8 @@ let products = [
         id: 14,
         name: 'Strelitzia Nicolai',
         price: '₹348.00',
-        url: 'assets/indoor-plants.jpg',
-        alt: 'indoor-plants',
+        url: 'assets/Strelitzia Nicolai.jpg',
+        alt: 'Strelitzia Nicolai',
         desc: "Strelitzia nicolai, commonly known as the wild banana or giant white bird of paradise, is a species of banana-like plants with erect woody stems reaching a height of 7–8 m (23–26 ft), and the clumps formed can spread as far as 3.5 m (11 ft). Strelitzia nicolai is commonly grown both indoors and outdoors as well, in the case of warmer climates, and where frost does not occur regularly.",
     },
     {
@@ -132,8 +132,8 @@ let products = [
         id: 17,
         name: 'Snake Plant + Colourful Pot',
         price: '₹320.00',
-        url: 'assets/snake-plant-colorful-pot.jpg',
-        alt: 'snake-plant-colorful-pot',
+        url: 'assets/snake-plant-colourful-pot.jpg',
+        alt: 'snake-plant-colourful-pot',
         desc: "Sansevieria (Snake Plant) is an amazing plant. Its sword-like leaves have striking sculptural beauty and the care is very simple. I have snake plants in nearly every room of my home and they bring lots of visual interest to the environment! Sansevieria removes harmful chemicals from the environment and releases oxygen, resulting in it having air purifying qualities. The plant will grow better in bright light (indirect light near a window in your home), but it can handle a darker corner in your home with less light exposure as well.",
     },
     {

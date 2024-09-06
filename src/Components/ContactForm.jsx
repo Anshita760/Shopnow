@@ -36,7 +36,7 @@ const ContactForm = () => {
                 </div>
                 <div className="label-text">
                     <label htmlFor="">Message</label>
-                    <textarea placeholder='Type you message' rows={3}/>
+                    <textarea className='msg-text-scroll' placeholder='Type you message' rows={4}/>
                 </div>
                 <button type='submit' className='contact-btn'>Submit</button>
             </form>
