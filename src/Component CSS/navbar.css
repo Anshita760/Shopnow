@@ -18,7 +18,7 @@
 }
 .logo{
     width: 70px;
-    margin: 0 40px;
+    /* margin: 0 40px; */
 }
 .logo.nav-link{
     padding-bottom: 0;
@@ -33,7 +33,7 @@
     /* width: 100%; */
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: wrap;
     gap: 40px;
     list-style: none;
@@ -44,7 +44,8 @@
     padding-bottom: 4px;
     text-decoration: none;
     font-weight: 600;
-    color: #254336;
+    color: #fff;
+    /* color: #254336; */
     position: relative;
 }
 .nav-link::after{

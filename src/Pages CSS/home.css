@@ -14,15 +14,21 @@
 .hero-section{
     width: 100%;
     display: flex;
-    justify-content: center;
-    padding: 60px 0;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px 0 60px;
     background-image: url('/public/assets/indoor-plants-studio.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .hero-overlay{
     width: 80%;
-    padding: 0 20px 50px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
     background: rgba( 255, 255, 255, 0.5 );
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
@@ -31,9 +37,37 @@
     box-shadow: rgba(70, 70, 70, 0.3) 0px 5px 18px;
 }
 .App-header{
+    width: 80%;
     margin-bottom: 40px;
+    transition: .4s ease;
 }
-.banner{
+.is-sticky{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff75;
+    z-index: 2;
+    padding: 10px 30px;
+    transition: .3s ease;
+    backdrop-filter: blur(5px);
+}
+.is-sticky .nav-link{
+    color: var(--bs-link-hover-color-rgb);
+}
+.banner-slider-section{
+    width: 100%;
+    overflow: hidden;
+}
+.slider-img-container{
+    
+    background-size: cover;
+}
+.banner-slider{
+    width: 100%;
+    /* height: 400px; */
+    overflow: hidden;
+}
+.category{
     width: 100%;
 }
 .product{

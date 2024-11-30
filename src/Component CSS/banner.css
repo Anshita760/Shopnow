@@ -48,9 +48,6 @@
     background-position: center right;
     transition: all .4s ease;
 }
-.top-product:hover .product1{
-    transform: scale(1.1);
-}
 .product2{
     background: linear-gradient(rgba(160, 160, 160, 0.4), rgb(14, 12, 12, 0.4)), url(/public/assets/banner-img2.jpg);
     background-size: cover;
@@ -58,7 +55,14 @@
     background-position: bottom left;
     transition: all .4s ease;
 }
-.top-product:hover .product2{
+.product3{
+    background: linear-gradient(rgba(160, 160, 160, 0.4), rgb(14, 12, 12, 0.4)), url(/public/assets/indoor-plants-studio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    transition: all .4s ease;
+}
+.top-product:hover .top-product-container{
     transform: scale(1.1);
 }
 .top-product-content{
@@ -75,6 +79,9 @@
 }
 .text-align-start{
     align-items: flex-start;
+}
+.text-align-center{
+    align-items: center;
 }
 .text-align-end{
     align-items: flex-end;

@@ -12,11 +12,14 @@
     /* background: linear-gradient(rgba(14, 12, 12, 0.4), rgb(14, 12, 12, 0.4)), url('/public/assets/close-up-woman-with-flowers-basket.jpg'); */
     background-size: cover;
     background-position: top;
-    padding-right: 40px;
+    padding: 0 40px;
 }
 .nav-comp{
     width: 100%;
     padding-bottom: 18px;
+}
+.nav-comp .nav-links{
+    align-items: flex-end;
 }
 .product-nav .nav-link{
     color: #fff;
