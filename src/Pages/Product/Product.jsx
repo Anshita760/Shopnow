@@ -1,8 +1,8 @@
-import '../Pages CSS/product.css'
+import './product.css'
 import React, { useState, useEffect } from 'react'
-import { products } from '../Products'
-import ProductPanel from '../Components/ProductPanel'
-import ProductPgDetail from '../Components/ProductPgDetail'
+import { products } from '../../Product Store/Products'
+import ProductPanel from '../../Components/Product Panel/ProductPanel'
+import ProductPgDetail from '../../Components/Product page detail/ProductPgDetail'
 
 const Product = () => {
     const [productPanel, setProductPanel] = useState([])

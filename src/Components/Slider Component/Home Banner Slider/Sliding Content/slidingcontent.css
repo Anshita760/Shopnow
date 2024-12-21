@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sliding-content{
+    color: #fff;
+}
+
+.sliding-content h1{
+    width: 85%;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 40px;
+    /* font-family: "Lato", sans-serif; */
+}
+
+.sliding-content p{
+    /* font-size: 16px;
+    font-weight: 700; */
+    color: #fff;
+    /* color: var(--section-bg-color); */
+}

@@ -1,7 +1,7 @@
 import React from 'react'
-import NavBar from '../Components/NavBar'
+import NavBar from '../Navbar/NavBar'
 import { NavLink } from 'react-router-dom'
-import "../Component CSS/productPgDetail.css"
+import "./productPgDetail.css"
 
 const ProductPgDetail = ({productPanel, productDetails}) => {
     return (

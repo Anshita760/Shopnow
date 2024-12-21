@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Component CSS/productPanel.css"
+import "./productPanel.css"
 
 const ProductPanel = ({productPanel, setProductDetails}) => {
     return (

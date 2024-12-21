@@ -1,8 +1,8 @@
 import React from 'react'
-import "../Pages CSS/contactUs.css"
-import ContactForm from '../Components/ContactForm'
-import NavBar from '../Components/NavBar'
-import Footer from '../Components/Footer'
+import "./contactUs.css"
+import ContactForm from '../../Components/Contact form/ContactForm'
+import NavBar from '../../Components/Navbar/NavBar'
+import Footer from '../../Components/Footer/Footer'
 
 const ContactUs = () => {
     return (

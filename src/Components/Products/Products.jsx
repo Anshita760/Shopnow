@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import '../Component CSS/products.css'
+import './products.css'
 import { NavLink } from 'react-router-dom'
-import { products } from '../Products'
+import { products } from '../../Product Store/Products'
 
 const Products = () => {
     const [product, setProduct] = useState([])
