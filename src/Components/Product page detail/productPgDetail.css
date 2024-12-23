@@ -27,32 +27,6 @@
 .product-nav .nav-link:hover::after{
     background-color: #fff;
 }
-.shopping-cart{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-.cart{
-    color: #fff;
-    font-size: 34px;
-}
-.cart-count{
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: red;
-    padding: 1px 4px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    font-family: 'poppins', 'sans serif';
-}
-.cart-count span{
-    font-size: 8px;
-    font-weight: 700;
-    color: #fff;
-}
 .product-detail-container{
     padding: 20px;
 }

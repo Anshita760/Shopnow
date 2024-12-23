@@ -8,7 +8,7 @@
     background-color: var(--section-bg-color);
 }
 .contact-us-page .nav-comp{
-    padding-right: 3rem;
+    padding: 0 3rem;
 }
 .contact-us-page .nav-comp .nav-link{
     color: #fff;

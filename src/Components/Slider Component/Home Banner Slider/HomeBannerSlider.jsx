@@ -2,6 +2,7 @@ import "./homeBannerSlider.css"
 import React from 'react'
 import SlidingContent from "./Sliding Content/SlidingContent";
 import SlidingImg from "./Sliding Image/SlidingImg";
+import Counter from "../../Counter/Counter";
 
 const HomeBannerSlider = (props) => {
     const { url, name } = props.item;
@@ -13,6 +14,7 @@ const HomeBannerSlider = (props) => {
                 <div className='blur-bg'>
                     <div className='slider-content-container'>
                         <SlidingContent />
+                        <Counter/>
                     </div>
                     <div className="banner-sliding-img">
                         <SlidingImg image={url} />

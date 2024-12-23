@@ -160,5 +160,13 @@ let products = [
         alt: 'still-life-with-indoor-plants',
         desc: "Bamboo Palm is a subtropical palm, upright, spreading, and multi-stemmed growing up to 7' in indoor environments. It is one of the most sought-after indoor palms because it thrives in interior conditions that other plants cannot tolerate.  The leaves spread out attractively and have a drooping form. When grown outdoors in a temperate zone, it can reach 6-7 feet tall and 2-3 feet wide; as a houseplant, it grows only between 2-7 feet tall.",
     },
+    {
+        id: 21,
+        name: ' lavender ( Lavandula)',
+        price: '₹299.00',
+        url: 'assets/close-up-woman-with-flowers-basket.jpg',
+        alt: 'still-life-with-indoor-plants',
+        desc: "Lavenders are small evergreen shrubs with gray-green hoary linear leaves. The purple flowers are sparsely arranged on spikes at the tips of long bare stalks and produce small nutlet fruits. The fragrance of the plant is caused by shining oil glands imbedded among tiny star-shaped trichomes (plant hairs) that cover the flowers, leaves, and stems. The plants in cultivation do not usually produce seed, and propagation is accomplished by cuttings or by dividing the roots.",
+    },
 ]
 export { products }

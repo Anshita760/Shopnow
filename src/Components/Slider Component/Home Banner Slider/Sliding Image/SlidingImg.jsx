@@ -4,21 +4,18 @@ import Slider from "react-slick";
 import { SliderProducts } from '../../../../Product Store/SliderProduct';
 
 const SlidingImg = (props) => {
-    // console.log(props.image)
 
-    // const slides = SliderProducts;
-
-    const settings3 = {
-        infinite: true,
-        arrows: false,
-        speed: 1000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        fade: true,
-        pauseOnHover: false,
-    };
+    // const settings3 = {
+    //     infinite: true,
+    //     arrows: false,
+    //     speed: 1000,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 3000,
+    //     fade: true,
+    //     pauseOnHover: false,
+    // };
 
     return (
         <>

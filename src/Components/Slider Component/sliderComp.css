@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.hero-section {
+.header-section {
     width: 100%;
     padding: 20px 0;
     display: flex;
@@ -34,6 +34,11 @@
     padding: 10px 30px;
     transition: .3s ease;
     backdrop-filter: blur(5px);
+}
+
+.is-sticky .contact-btn{
+    background-color: #313b29;
+    border: none;
 }
 
 .is-sticky .nav-link {

@@ -11,12 +11,6 @@ const ProductPgDetail = ({productPanel, productDetails}) => {
                     <div className="nav-comp">
                         <NavBar />
                     </div>
-                    <NavLink className="shopping-cart">
-                        <span className="material-symbols-outlined cart">shopping_cart</span>
-                        <div className="cart-count">
-                            <span>0</span>
-                        </div>
-                    </NavLink>
                 </div>
                 <div className="product-detail-container">
                     <div className="product-detail-content">

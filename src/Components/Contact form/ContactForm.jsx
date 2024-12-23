@@ -38,7 +38,7 @@ const ContactForm = () => {
                     <label htmlFor="">Message</label>
                     <textarea className='msg-text-scroll' placeholder='Type you message' rows={4}/>
                 </div>
-                <button type='submit' className='contact-btn'>Submit</button>
+                <button type='submit' className='contact-submit-btn'>Submit</button>
             </form>
         </div>
     </>         

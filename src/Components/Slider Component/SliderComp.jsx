@@ -39,7 +39,7 @@ const SliderComp = () => {
     })
     return (
         <>
-            <div className="hero-section">
+            <div className="header-section">
                 <header className={stickyHead ? "is-sticky" : "App-header"}>
                     <NavBar />
                 </header>

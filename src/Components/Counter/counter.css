@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.counter-container{
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+.counter-container .count{
+    text-align: center;
+}
